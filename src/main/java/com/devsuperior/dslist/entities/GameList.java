@@ -32,7 +32,13 @@ public class GameList {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+
+    }
+    public Long getId() {
+        return id;
     }
 
-
+    public String getName() {
+        return name;
+    }
 }
